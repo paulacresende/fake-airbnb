@@ -1,2 +1,2 @@
 # fake-airbnb
-Fake Airbnb utilizando API.
+Fake Airbnb utilizando featch API.
