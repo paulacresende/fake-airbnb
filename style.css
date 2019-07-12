@@ -20,7 +20,7 @@
     
     .search-bar {
         display: flex;
-        height: 20vh;
+        height: 10vh;
         width: 100vw;
         background-color: white;
         position: fixed;
@@ -33,6 +33,10 @@
     .fa-airbnb {
         color: rgb(255, 90, 95);
         font-size: 2em;
+    }
+    
+    h2 {
+        margin: 50px 50px 50px 50px;
     }
     
     .lugares {
@@ -51,31 +55,34 @@
         height: 40vh;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     
     #airbnb>div {
-        font-size: 16px;
+        font-size: 14px;
         width: 25vw;
-        height: 80vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        flex: 1 0 40vw;
+        /*flex: 1 0 30vw;*/
         align-items: flex-start;
+        color: #484848;
     }
     
     #airbnb>div>p {
         font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-        font-size: 100%;
+        font-size: 18px;
         max-width: 40vw;
         display: flex;
         flex-wrap: wrap;
+        color: #484848;
+        font-weight: 600;
     }
     
     #airbnb>div>img {
-        height: 50vh;
-        width: 30vw;
+        height: 25vh;
+        width: 18vw;
+        border-radius: 0.5vw;
     }
     
     @media (max-width: 400px) {
