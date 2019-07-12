@@ -28,6 +28,7 @@
         flex-direction: row;
         align-items: center;
         color: #484848;
+        margin: 0;
     }
     
     .fa-airbnb {
